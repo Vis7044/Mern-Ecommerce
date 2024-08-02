@@ -84,6 +84,10 @@ const SummaryApi = {
     getOrder: {
         url: `${backendDomain}/api/order-list`,
         method: 'get'
+    },
+    getAllOrder : {
+        url : `${backendDomain}/api/allOrder`,
+        method: 'get'
     }
 }
 

@@ -90,7 +90,7 @@ const Header = () => {
             )}
             {menu && (
               <div className="absolute bg-white hidden md:block bottom-0 top-11 h-fit p-2 shadow-lg rounded">
-                <nav>
+                <nav className='flex flex-col'>
                   {user?.role === ROLE.ADMIN && (
                     <Link
                       to={'/admin-panel/all-products'}
