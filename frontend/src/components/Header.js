@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import Logo from './Logo';
+import logo from '../assest/logo2.png';
 import { GrSearch } from 'react-icons/gr';
 import { LuUserCircle2 } from 'react-icons/lu';
 import { FaCartShopping } from 'react-icons/fa6';
@@ -55,7 +55,7 @@ const Header = () => {
       <div className="h-full container mx-auto flex items-center px-4 justify-between">
         <div className="">
           <Link to={'/'}>
-            <Logo w={90} h={50} />
+            <img src={logo} alt="logo" className="h-8" />
           </Link>
         </div>
         <div className="hidden lg:flex items-center w-full justify-between max-w-sm border rounded-full focus-within:shadow pl-2">
